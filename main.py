@@ -38,8 +38,10 @@ if __name__ == '__main__':
 
     # Keras Backend 설정
     if args.backend == 'tensorflow':
+        print("pass1")
         os.environ['KERAS_BACKEND'] = 'tensorflow'
     elif args.backend == 'plaidml':
+        print("pass2")
         os.environ['KERAS_BACKEND'] = 'plaidml.keras.backend'
 
     # 출력 경로 설정

@@ -51,7 +51,7 @@ class Visualizer:
     def plot(self, epoch_str=None, num_epoches=None, epsilon=None,
             action_list=None, actions=None, num_stocks=None,
             outvals_value=[], outvals_policy=[], exps=None, 
-            learning_idxes=None, initial_balance=None, pvs=None):
+            learning_idxes=None, initial_balance=None, pvs=None): # action_list 확률값
         with lock:
             x = np.arange(len(actions))  # 모든 차트가 공유할 x축 데이터
             actions = np.array(actions)  # 에이전트의 행동 배열
@@ -72,7 +72,7 @@ class Visualizer:
             # 차트 3. 가치 신경망
             if len(outvals_value) > 0:
                 max_actions = np.argmax(outvals_value, axis=1)
-                for action, color in zip(action_list, self.COLORS):
+                for action, color in zip(action_list, self.COLORS): # action이 두 개면 'g'는 버려짐 
                     # 배경 그리기
                     for idx in x:
                         if max_actions[idx] == action:
@@ -93,7 +93,7 @@ class Visualizer:
                 color = 'white'
                 if np.isnan(outval.max()):
                     continue
-                if outval.argmax() == Agent.ACTION_BUY:
+                if outval.argmax() == Agent.ACTION_BUY: # Agent클래스의 static field
                     color = 'r'  # 매수 빨간색
                 elif outval.argmax() == Agent.ACTION_SELL:
                     color = 'b'  # 매도 파란색

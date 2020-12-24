@@ -32,9 +32,9 @@ class ReinforcementLearner:
         # 강화학습 기법 설정
         self.rl_method = rl_method
         # 환경 설정
-        self.stock_code = stock_code
-        self.chart_data = chart_data
-        self.environment = Environment(chart_data)
+        self.stock_code = stock_code # 문자열
+        self.chart_data = chart_data # dataframe
+        self.environment = Environment(chart_data) # Environment 객체
         # 에이전트 설정
         self.agent = Agent(self.environment,
                     min_trading_unit=min_trading_unit,
@@ -239,7 +239,7 @@ class ReinforcementLearner:
             "{max_trading_unit}] DRT:{delayed_reward_threshold}".format(
             code=self.stock_code, rl=self.rl_method, net=self.net,
             lr=self.lr, discount_factor=discount_factor,
-            min_trading_unit=self.agent.min_trading_unit, 
+            min_trading_unit=self.agent.min_trading_unit, # non-static으로 접근
             max_trading_unit=self.agent.max_trading_unit,
             delayed_reward_threshold=self.agent.delayed_reward_threshold
         )
