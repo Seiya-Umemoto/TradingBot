@@ -7,3 +7,6 @@
 - [plaidML](https://plaidml.github.io/plaidml/)
   - `pip install plaidml-keras==0.6.2`
   - `pip install mplfinance`
+
+## Paper(click the image below to see)
+[![RL Trading Bot](https://github.com/Seiya-Umemoto/tradingBot/readme/rl_stock.jpg?raw=true)](https://github.com/Seiya-Umemoto/tradingBot/readme/KSC2020_Final_v1.0.doc)
