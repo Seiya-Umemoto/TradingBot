@@ -2,6 +2,8 @@
 
 ## Development Environment
 - [Anaconda 3.7+](https://www.anaconda.com/distribution/)
+- [Keras](https://keras.io/)
+  - `pip install keras==2.2.4`
 - [TensorFlow 1.15.2](https://www.tensorflow.org/)
   - `pip install tensorflow==1.15.2`
 - [plaidML](https://plaidml.github.io/plaidml/)
