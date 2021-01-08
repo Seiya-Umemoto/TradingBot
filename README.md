@@ -9,4 +9,4 @@
   - `pip install mplfinance`
 
 ## Paper(click the image below to see)
-[![RL Trading Bot](https://github.com/Seiya-Umemoto/tradingBot/readme/rl_stock.jpg?raw=true)](https://github.com/Seiya-Umemoto/tradingBot/readme/KSC2020_Final_v1.0.doc)
+[![RL Trading Bot](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/rl_stock.jpg?raw=true)](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/KSC2020_Final_v1.0.doc?raw=true)
