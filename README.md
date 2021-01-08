@@ -12,5 +12,5 @@
 
 ## Paper
 - **Link:** [Comparative Study of Deep Reinforcement Learning Methods - Case Study of Korean Stock Market](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/KSC2020_Final_v1.0.doc?raw=true)
-- **Preview**
+- **Preview:**
 ![RL Trading Bot](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/rl_stock.jpg?raw=true)
