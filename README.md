@@ -10,5 +10,7 @@
   - `pip install plaidml-keras==0.6.2`
   - `pip install mplfinance`
 
-## Paper(click the image below to see)
-[![RL Trading Bot](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/rl_stock.jpg?raw=true)](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/KSC2020_Final_v1.0.doc?raw=true)
+## Paper
+- **Link:** [Comparative Study of Deep Reinforcement Learning Methods - Case Study of Korean Stock Market](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/KSC2020_Final_v1.0.doc?raw=true)
+- **Preview**
+![RL Trading Bot](https://github.com/Seiya-Umemoto/tradingBot/blob/main/readme/rl_stock.jpg?raw=true)
